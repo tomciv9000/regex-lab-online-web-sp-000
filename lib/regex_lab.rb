@@ -16,4 +16,8 @@ end
 
 def valid_phone_number?(phone)
   if phone.match(/\D?[0-9]{3}\D?[0-9]{3}\D?[0-9]{4}/)
+    return true 
+  else
+    return false 
+  end
 end
